@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		01A9F3C7145FC01006D3DB806AA72FC0 /* XRToolSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBACACBB84E06C22B0F7CA4B5C35267A /* XRToolSDK-dummy.m */; };
 		0241DD18AA38CAD009BF28D63554CF59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1D8FDE0E26DC864400D9A99B /* XRTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8FDE0C26DC864400D9A99B /* XRTool.h */; };
+		1D8FDE0F26DC864400D9A99B /* XRTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8FDE0D26DC864400D9A99B /* XRTool.m */; };
 		2139ECC4E175D64DFECCC0BC335A4A72 /* XRToolSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1AFF4E3819D95B209980C1363D8950 /* XRToolSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		466966B8D645A38FB943A05EB38D2115 /* Pods-XRToolSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12ACF7ED6F8274EBC7DB23808AC425B2 /* Pods-XRToolSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55569C06139229B98D67DBC66F7936D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -42,33 +44,35 @@
 		0D49C390B3CA75A64C76C0197F5546B8 /* Pods-XRToolSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XRToolSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		105D7FD6AAD8449EFF56833395A87840 /* XRToolSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XRToolSDK.release.xcconfig; sourceTree = "<group>"; };
 		12ACF7ED6F8274EBC7DB23808AC425B2 /* Pods-XRToolSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XRToolSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1D8FDE0C26DC864400D9A99B /* XRTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XRTool.h; sourceTree = "<group>"; };
+		1D8FDE0D26DC864400D9A99B /* XRTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRTool.m; sourceTree = "<group>"; };
 		1DACBA92108A0C96F66F8EA0E1ABFD09 /* Pods-XRToolSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XRToolSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		1F20ABA7DFFE280D6E69F927A06E7914 /* Pods-XRToolSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XRToolSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		2B1F0CD8A161C851B1DE6573762F7C6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2B1F0CD8A161C851B1DE6573762F7C6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2E1AFF4E3819D95B209980C1363D8950 /* XRToolSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XRToolSDK-umbrella.h"; sourceTree = "<group>"; };
 		4A938DCCC33B40D498D717FA13C130D4 /* Pods-XRToolSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XRToolSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5087A926E793AC8635D7F9883840B0C0 /* Pods-XRToolSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XRToolSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		537AD08786D910DA0028B9F8206C8EFB /* Pods-XRToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XRToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5AFEA324EBD9347A5F3CFDC835F76C6B /* Pods-XRToolSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XRToolSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		670E5FC0B29CD2F0154D2A20334862D9 /* XRToolSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XRToolSDK.modulemap; sourceTree = "<group>"; };
-		6AEB5545576B0C1DAF0BC667578EC946 /* Pods_XRToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XRToolSDK_Example.framework; path = "Pods-XRToolSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AEB5545576B0C1DAF0BC667578EC946 /* Pods_XRToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRToolSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75573200E167B176390E16D5F9057A9D /* XRToolSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XRToolSDK-Info.plist"; sourceTree = "<group>"; };
-		784DCD8BAADDF212B29ED6426538D503 /* XRToolSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XRToolSDK.framework; path = XRToolSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		784DCD8BAADDF212B29ED6426538D503 /* XRToolSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XRToolSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91CDEF6AE20478FE1CE6551BE027B617 /* XRToolSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XRToolSDK.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7618BF3FFA23700E5B94E8943CB1E91 /* Pods-XRToolSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XRToolSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		B4CAA86887F121D99167B560F7CED6CC /* Pods-XRToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XRToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B86F62DB7FDDC3C3ABB87CF1DC12194B /* Pods-XRToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XRToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF49550646BD3D68F105C5BF2B216CDC /* Pods-XRToolSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XRToolSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		C1CE906B99695448C1F0EBC91D26A6DD /* XRToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XRToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C667BE8AEA0BEA8298905EBD40C4D046 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C1CE906B99695448C1F0EBC91D26A6DD /* XRToolSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XRToolSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C667BE8AEA0BEA8298905EBD40C4D046 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D1E649B760DC5A06B0A3BBFB849FB00A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XRToolSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D3621D852A8C2AB5BE5A27E3F40498A1 /* Pods-XRToolSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XRToolSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D7D475ED043200A64A758008B9465AA5 /* Pods-XRToolSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XRToolSDK_Example-Info.plist"; sourceTree = "<group>"; };
 		DBACACBB84E06C22B0F7CA4B5C35267A /* XRToolSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XRToolSDK-dummy.m"; sourceTree = "<group>"; };
 		DF2CA0476490354FF5443DE4D2134157 /* XRToolSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XRToolSDK-prefix.pch"; sourceTree = "<group>"; };
-		E3887DA56F05DDB7271AF34FC27097AC /* Pods_XRToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XRToolSDK_Tests.framework; path = "Pods-XRToolSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3887DA56F05DDB7271AF34FC27097AC /* Pods_XRToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRToolSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E408EB19D5F02CE8661E82D1AFA3BB4C /* Pods-XRToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XRToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				D1E649B760DC5A06B0A3BBFB849FB00A /* ReplaceMe.m */,
+				1D8FDE0C26DC864400D9A99B /* XRTool.h */,
+				1D8FDE0D26DC864400D9A99B /* XRTool.m */,
 				41454F09E71845FFEAC45592397110FE /* Pod */,
 				5B242D5E23ECE2E2E7E23D5C869014D4 /* Support Files */,
 			);
@@ -230,6 +236,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8FDE0E26DC864400D9A99B /* XRTool.h in Headers */,
 				2139ECC4E175D64DFECCC0BC335A4A72 /* XRToolSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +376,7 @@
 			files = (
 				D656DF340781D47DE192AAC8CDAACA79 /* ReplaceMe.m in Sources */,
 				01A9F3C7145FC01006D3DB806AA72FC0 /* XRToolSDK-dummy.m in Sources */,
+				1D8FDE0F26DC864400D9A99B /* XRTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,8 +596,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
