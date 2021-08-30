@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1FA03FCE6F6D73B47757F296 /* Pods-XRToolSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRToolSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XRToolSDK_Tests/Pods-XRToolSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		25CB36F806C47DF530B15857 /* Pods-XRToolSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRToolSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-XRToolSDK_Tests/Pods-XRToolSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4C6EC9F13F717CD1908430FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4C6EC9F13F717CD1908430FB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XRToolSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XRToolSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,10 +62,10 @@
 		6E49E064089AF8136974E0B6 /* Pods_XRToolSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRToolSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		90CDF3F92AD09A090D9590DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		90CDF3F92AD09A090D9590DE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		920DF3F585E98C9732E2E399 /* Pods-XRToolSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRToolSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-XRToolSDK_Example/Pods-XRToolSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D837DA7A0E25B8659B050E7D /* Pods_XRToolSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XRToolSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E375E46AC021FBEC602BE3B1 /* XRToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XRToolSDK.podspec; path = ../XRToolSDK.podspec; sourceTree = "<group>"; };
+		E375E46AC021FBEC602BE3B1 /* XRToolSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XRToolSDK.podspec; path = ../XRToolSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FB38519B07C77031C60B6DDC /* Pods-XRToolSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XRToolSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-XRToolSDK_Example/Pods-XRToolSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				1FA03FCE6F6D73B47757F296 /* Pods-XRToolSDK_Tests.debug.xcconfig */,
 				25CB36F806C47DF530B15857 /* Pods-XRToolSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module Pods_XRToolSDK_Tests {
+  umbrella header "Pods-XRToolSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
